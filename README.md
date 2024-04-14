@@ -16,17 +16,23 @@ The desing is a simple and visual.
 
 ---
 
-### Project Task History 📋:
+### Project Objectives or Task History 📋:
 
 - [x] _Create project._
 - [x] _Create a basic visual design._
-- [ ] _Create the main pages to be used._
+- [x] _Create the main pages to be used._
     - [x] ~~Home~~
-    - [ ] **Characters**
-    - [ ] **Locations**
-    - [ ] **Episodes**
+    - [x] ~~Characters~~
+    - [x] ~~Locations~~
+    - [x] ~~Episodes~~
+    - [x] _Create a design for each page._
+        - [ ] **Home**
+        - [ ] **Characters**
+        - [ ] **Locations**
+        - [ ] **Episodes**
 - [ ] Use react-router-dom
     - [ ] Install
     - [ ] Paginate project pages (**home**, **characters**, **locations**, **episodes**).
+    - [ ] Change navbar design when select a location in page.
 
 - ***In progress...***
