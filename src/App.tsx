@@ -3,7 +3,7 @@ import { Home } from "./pages/home";
 
 function App() {
   return (
-    <div className="h-screen">
+    <div>
       <Navbar />
       <Home />
     </div>
