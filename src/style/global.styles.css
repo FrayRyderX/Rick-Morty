@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        min-height: 100vh;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+}
+
+.green-background {
+    background-color: rgb(136, 226, 59);
+}
