@@ -1,9 +1,12 @@
 # Rick-Morty
-This repo is inspirate the serie of Rick and Morty.
+This repo is inspiration the serie of Rick and Morty, the principal objective is practice the Front-end and use the design is a simple and visual.
 
-The priccipal objective is practice the Front-end
+---
 
-The desing is a simple and visual.
+### How to use for local 💻:
+
+- _npm install_
+- _npm run dev_
 
 ---
 
