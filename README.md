@@ -18,15 +18,15 @@ The desing is a simple and visual.
 
 ### Project Task History 📋:
 
--[x] _Create project._
--[x] _Create a basic visual design._
--[] _Create the main pages to be used._
-    -[x] ~~Home~~
-    -[] **Characters**
-    -[] **Locations**
-    -[] **Episodes**
--[] Use react-router-dom
-    -[] Install
-    -[] Paginate project pages (**home**, **characters**, **locations**, **episodes**).
+- [x] _Create project._
+- [x] _Create a basic visual design._
+- [] _Create the main pages to be used._
+    - [x] ~~Home~~
+    - [] **Characters**
+    - [] **Locations**
+    - [] **Episodes**
+- [] Use react-router-dom
+    - [] Install
+    - [] Paginate project pages (**home**, **characters**, **locations**, **episodes**).
 
--***In progress...***
+- ***In progress...***
