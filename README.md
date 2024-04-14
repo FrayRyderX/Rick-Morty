@@ -4,16 +4,8 @@ This repo is inspiration the serie of Rick and Morty, the principal objective is
 ---
 
 ### How to use for local 💻:
-<script>
-  // Array de colores
-  const colors = ["blue", "green", "red", "yellow", "orange", "purple"];
-  // Selecciona el elemento del DOM
-  const npmInstallText = document.getElementById("npm-install");
-  // Cambia el color del texto cada vez que la página se carga
-  npmInstallText.style.color = colors[Math.floor(Math.random() * colors.length)];
-</script>
 
-<div id="npm-install">npm install</div>
+- _npm install_
 - _npm run dev_
 
 ---
@@ -22,8 +14,8 @@ This repo is inspiration the serie of Rick and Morty, the principal objective is
 
 | colorName | HEX | RGB |
 |     :---:      |     :---:      |     :---:      |
-| **Kiwi Green** | #88e23b | RGB(136, 226, 59) |
-| **Mystery** | #a6cccc | RGB(166, 204, 204) |
+| **Kiwi Green** | `#88e23b` | `RGB(136, 226, 59)` |
+| **Mystery** | `#a6cccc` | `RGB(166, 204, 204)` |
 
 ---
 
