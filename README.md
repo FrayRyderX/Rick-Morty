@@ -16,6 +16,7 @@ This repo is inspiration the serie of Rick and Morty, the principal objective is
 |     :---:      |     :---:      |     :---:      |
 | **Kiwi Green** | `#88e23b` | `RGB(136, 226, 59)` |
 | **Mystery** | `#a6cccc` | `RGB(166, 204, 204)` |
+| **Black** | `#000000` | | `RBG(0, 0, 0) ` |
 
 ---
 
@@ -29,7 +30,7 @@ This repo is inspiration the serie of Rick and Morty, the principal objective is
     - [x] ~~Locations~~
     - [x] ~~Episodes~~
     - [ ] _Create a design for each page._
-        - [ ] **Home**
+        - [x] **Home**
         - [ ] **Characters**
         - [ ] **Locations**
         - [ ] **Episodes**
