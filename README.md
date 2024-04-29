@@ -30,7 +30,7 @@ This repo is inspiration the serie of Rick and Morty, the principal objective is
     - [x] ~~Characters~~
     - [x] ~~Locations~~
     - [x] ~~Episodes~~
-    - [ ] _Create a design for each page._
+    - [x] _Create a design for each page._
         - [x] **Home**
         - [x] **Characters**
         - [x] **Locations**
