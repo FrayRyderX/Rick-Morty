@@ -5,6 +5,7 @@
 @layer base {
     body {
         min-height: 100vh;
+        font-family: "Creepster", system-ui;
     }
 
     ::-webkit-scrollbar {
@@ -14,4 +15,8 @@
 
 .green-background {
     background-color: rgb(136, 226, 59);
+}
+
+.blue-background {
+    background-color: rgb(166, 204, 204);
 }

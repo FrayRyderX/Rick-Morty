@@ -16,6 +16,8 @@ This repo is inspiration the serie of Rick and Morty, the principal objective is
 |     :---:      |     :---:      |     :---:      |
 | **Kiwi Green** | `#88e23b` | `RGB(136, 226, 59)` |
 | **Mystery** | `#a6cccc` | `RGB(166, 204, 204)` |
+| **White** | `#FFFFFF` | | `RBG(255, 255, 255) ` |
+| **Black** | `#000000` | | `RBG(0, 0, 0) ` |
 
 ---
 
@@ -28,11 +30,11 @@ This repo is inspiration the serie of Rick and Morty, the principal objective is
     - [x] ~~Characters~~
     - [x] ~~Locations~~
     - [x] ~~Episodes~~
-    - [ ] _Create a design for each page._
-        - [ ] **Home**
-        - [ ] **Characters**
-        - [ ] **Locations**
-        - [ ] **Episodes**
+    - [x] _Create a design for each page._
+        - [x] **Home**
+        - [x] **Characters**
+        - [x] **Locations**
+        - [x] **Episodes**
 - [ ] Use react-router-dom
     - [ ] Install
     - [ ] Paginate project pages (**home**, **characters**, **locations**, **episodes**).
