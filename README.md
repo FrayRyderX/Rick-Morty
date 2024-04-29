@@ -32,9 +32,9 @@ This repo is inspiration the serie of Rick and Morty, the principal objective is
     - [x] ~~Episodes~~
     - [ ] _Create a design for each page._
         - [x] **Home**
-        - [ ] **Characters**
-        - [ ] **Locations**
-        - [ ] **Episodes**
+        - [x] **Characters**
+        - [x] **Locations**
+        - [x] **Episodes**
 - [ ] Use react-router-dom
     - [ ] Install
     - [ ] Paginate project pages (**home**, **characters**, **locations**, **episodes**).
