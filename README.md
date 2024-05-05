@@ -35,10 +35,10 @@ This repo is inspiration the serie of Rick and Morty, the principal objective is
         - [x] ~~Characters~~
         - [x] ~~Locations~~
         - [x] ~~Episodes~~
-- [ ] Use react-router-dom
+- [x] Use react-router-dom
     - [x] Install
     - [x] Paginate project pages (**home**, **characters**, **locations**, **episodes**).
-    - [ ] Change navbar design when select a location in page.
+    - [x] Change navbar design when select a location in page.
 - [ ] Use Rick-Morty API
     - [ ] Install axios
     - [ ] Install React Query
