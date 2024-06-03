@@ -1,4 +1,4 @@
-export interface Characters {
+export interface CharactersInterface {
     created: Date;
     episode: string[];
     gender: Gender;
