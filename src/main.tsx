@@ -1,10 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './Rick&MortyApp.tsx'
-import './style/global.styles.css'
+import ReactDOM from 'react-dom/client';
+import App from './Rick&MortyApp.tsx';
+import './style/global.styles.css';
+import { QueryClientProvider, QueryClient } from '@tanstack/react-query';
+
+const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
+  <QueryClientProvider client={queryClient}>
     <App />
-  </React.StrictMode>,
+  </QueryClientProvider>
 )
