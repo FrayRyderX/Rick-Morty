@@ -1,5 +1,5 @@
-import { CharactersInterface } from "../../utils/interface/interface";
-import { formatedDate } from "../../../../utils";
+import { CharactersInterface } from "../../model/characters/utils/interface/interface";
+import { formatedDate } from "../../utils";
 
 export const Card = (character: CharactersInterface) => {
     return (
