@@ -1,5 +1,5 @@
 import { CharactersInterface } from "../../model/characters/utils/interface/interface";
-import { formatedDate } from "../../utils";
+import { formattedDate } from "../../utils";
 
 export const Card = (character: CharactersInterface) => {
   return (
@@ -10,7 +10,7 @@ export const Card = (character: CharactersInterface) => {
       <div className="flex-auto p-6">
         <div className="flex flex-col mb-6 pb-6 border-b border-slate-200">
           <h1 className='green-text font-medium text-xl'>Name: {character.name}</h1>
-          <p className='green-text font-medium text-md'>Created: {formatedDate(character.created)}</p>
+          <p className='green-text font-medium text-md'>Created: {formattedDate(character.created)}</p>
           <p className='green-text font-medium text-md'>Status: {character.status}</p>
         </div>
         <div className="flex flex-col sm:flex-row items-baseline mt-4 mb-6 pb-6 border-b border-slate-200">
