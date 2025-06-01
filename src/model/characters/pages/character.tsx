@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { instance } from '../../../api';
 import { CharactersInterface } from '../utils/interface/interface';
 import { Card } from '../../../components/card/card';
+import { loadingScreen, screenInformative } from '../../../components/globalComponents';
+import { delay } from '../../../utils';
 
 export const Character = () => {
   const [characters, setCharacters] = useState<CharactersInterface[]>([]);
@@ -9,30 +11,24 @@ export const Character = () => {
   const [error, setError] = useState<null | string>(null);
 
   useEffect(() => {
-    setLoading(true);
     const fetchCharacters = async () => {
+      setLoading(true);
+      await delay(500);
       try {
-        const response = await instance.get('/character');
-        console.log(response.data.results)
+        const response = await instance.get('/characters');
         setCharacters(response.data.results);
       } catch (error: any) {
         setError(error.message);
+      } finally {
+        setLoading(false);
       }
     };
 
     fetchCharacters();
-    setLoading(false);
   }, []);
 
-  if (error) {
-    return (
-      <div className="bg-black h-[calc(100vh-76px)] p-5 sm:h-[calc(100vh-76px)]">
-        <div className="rounded-3xl blue-background h-[calc(100vh-115px)] sm:h-[calc(100vh-115px)] flex justify-center items-center">
-          <div className="text-black text-4xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-6xl">{error}</div>
-        </div>
-      </div>
-    )
-  }
+  if (error) return (screenInformative(error))
+  if (loading) return (loadingScreen("Cargando personajes..."));
 
   return (
     <div className="bg-black h-[calc(100vh-76px)] p-5 sm:h-[calc(100vh-76px)]">
