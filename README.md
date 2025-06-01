@@ -12,12 +12,12 @@ This repo is inspiration the serie of Rick and Morty, the principal objective is
 
 ### Colors 🎨:
 
-| Color Name | HEX | RGB |
-|     :---:      |     :---:      |     :---:      |
-| **Kiwi Green** | `#88e23b` | `RGB(136, 226, 59)` |
-| **Mystery** | `#a6cccc` | `RGB(166, 204, 204)` |
-| **White** | `#FFFFFF` |`RBG(255, 255, 255)` |
-| **Black** | `#000000` | `RBG(0, 0, 0)` |
+|   Color Name   |    HEX    |         RGB          |
+| :------------: | :-------: | :------------------: |
+| **Kiwi Green** | `#88e23b` | `RGB(136, 226, 59)`  |
+|  **Mystery**   | `#a6cccc` | `RGB(166, 204, 204)` |
+|   **White**    | `#FFFFFF` | `RBG(255, 255, 255)` |
+|   **Black**    | `#000000` |    `RBG(0, 0, 0)`    |
 
 ---
 
