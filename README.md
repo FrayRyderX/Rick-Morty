@@ -26,38 +26,38 @@ This repo is inspiration the serie of Rick and Morty, the principal objective is
 - [x] _Create project._
 - [x] _Create a basic visual design._
 - [x] _Create the main pages to be used._
+  - [x] ~~Home~~
+  - [x] ~~Characters~~
+  - [x] ~~Locations~~
+  - [x] ~~Episodes~~
+  - [x] _Create a design for each page._
     - [x] ~~Home~~
     - [x] ~~Characters~~
     - [x] ~~Locations~~
     - [x] ~~Episodes~~
-    - [x] _Create a design for each page._
-        - [x] ~~Home~~
-        - [x] ~~Characters~~
-        - [x] ~~Locations~~
-        - [x] ~~Episodes~~
 - [x] Use react-router-dom
-    - [x] Install
-    - [x] Paginate project pages (**home**, **characters**, **locations**, **episodes**).
-    - [x] Change navbar design when select a location in page.
+  - [x] Install
+  - [x] Paginate project pages (**home**, **characters**, **locations**, **episodes**).
+  - [x] Change navbar design when select a location in page.
 - [ ] Use Rick-Morty API
-    - [x] Install axios
-    - [x] Install React Query
-    - [x] Use axios
-    - [ ] Use React Query
-    - [ ] Consume the api of each endpoint on its respective page
-        - [x] **Home**
-            - [x] Adjust img in home
-        - [ ] **Characters**
-            - [x] Cretae a structure for api data body(Change desing)
-            - [ ] Show information
-            - [ ] Adjust information by pagination, data, etc.
-        - [ ] **Locations**
-            - [x] Cretae a structure for api data body(Change desing)
-            - [ ] Show information
-            - [ ] Adjust information by pagination, data, etc.
-        - [ ] **Episodes**
-            - [x] Cretae a structure for api data body(Change desing)
-            - [ ] Show information
-            - [ ] Adjust information by pagination, data, etc.
+  - [x] Install axios
+  - [x] Install React Query
+  - [x] Use axios
+  - [ ] Use React Query
+  - [ ] Consume the api of each endpoint on its respective page
+    - [x] **Home**
+      - [x] Adjust img in home
+    - [ ] **Characters**
+      - [x] Cretae a structure for api data body(Change desing)
+      - [ ] Show information
+      - [ ] Adjust information by pagination, data, etc.
+    - [ ] **Locations**
+      - [x] Cretae a structure for api data body(Change desing)
+      - [ ] Show information
+      - [ ] Adjust information by pagination, data, etc.
+    - [ ] **Episodes**
+      - [x] Cretae a structure for api data body(Change desing)
+      - [ ] Show information
+      - [ ] Adjust information by pagination, data, etc.
 
 - ***In progress...***
