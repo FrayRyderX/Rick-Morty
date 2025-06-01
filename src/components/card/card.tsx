@@ -36,10 +36,10 @@ export const Card = (character: CharactersInterface) => {
                 </div>
                 <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-5 text-sm font-medium">
                     <button className="h-10 px-6 font-semibold rounded-full bg-violet-600 text-white">
-                        Buy now
+                        test
                     </button>
                     <button className="h-10 px-6 font-semibold rounded-full bg-violet-600 text-white">
-                        Buy now
+                        test
                     </button>
                 </div>
             </div>

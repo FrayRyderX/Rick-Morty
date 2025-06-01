@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { instance } from '../../../api';
 import { CharactersInterface } from '../utils/interface/interface';
-import { Card } from '../components/card/card';
+import { Card } from '../../../components/card/card';
 
 export const Character = () => {
     const [characters, setCharacters] = useState<CharactersInterface[]>([]);
@@ -12,7 +12,8 @@ export const Character = () => {
         setLoading(true);
         const fetchCharacters = async () => {
             try {
-                const response = await instance.get('/charactera');
+                const response = await instance.get('/character');
+                console.log(response.data.results)
                 setCharacters(response.data.results);
             } catch (error: any) {
                 setError(error.message);
