@@ -24,3 +24,7 @@
 .green-text {
   color: rgb(136, 226, 59);
 }
+
+.border-image-card {
+  border: 2px solid rgb(136, 226, 59);
+}

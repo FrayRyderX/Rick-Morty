@@ -3,9 +3,9 @@ import { formattedDate } from "../../utils";
 
 export const Card = (character: CharactersInterface) => {
   return (
-    <div key={character.id} className="flex flex-col md:flex-row bg-black p-2 rounded-xl font-sans">
+    <div key={character.id} className="flex flex-col md:flex-row bg-black p-2 rounded-xl font-sans mb-4">
       <div className="flex-none w-full md:w-56 relative h-56 md:h-auto">
-        <img src={character.image} alt={character.name} className="absolute md:relative inset-0 w-full h-full object-cover rounded-xl" />
+        <img src={character.image} alt={character.name} className="absolute md:relative inset-0 w-full h-full object-cover rounded-xl border-image-card" />
       </div>
       <div className="flex-auto p-6">
         <div className="flex flex-col mb-6 pb-6 border-b border-slate-200">
