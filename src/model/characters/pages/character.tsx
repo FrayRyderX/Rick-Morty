@@ -37,27 +37,28 @@ export const Character = () => {
   if (isError) return screenInformative(error.message);
 
   return (
-    <div className="bg-black h-[calc(100vh-76px)] p-5 overflow-y-auto">
-      <div className="rounded-3xl blue-background p-4">
-        <h1 className="text-6xl text-center border-b-4 border-black mb-4">Characters</h1>
+    <div className="bg-black h-[calc(100vh-76px)] p-5">
+      <div className="rounded-3xl blue-background p-4 h-full flex flex-col">
+        <h1 className="text-6xl text-center border-b-4 border-black mb-4 sticky top-0 z-10">Characters</h1>
 
-        {data?.pages.map((page, pageIndex) => (
-          <div key={pageIndex} className="flex flex-col gap-2 mb-2">
-            {page.results.map((character: CharactersInterface) => (
-              <div key={character.id}>{Card(character)}</div>
-            ))}
-          </div>
-        ))}
-
-        <div ref={loaderRef} className="flex flex-col items-center justify-center py-4 gap-2">
-          {isFetchingNextPage ? (
-            <div className="w-20 h-20 border-8 border-black border-t-transparent rounded-full animate-spin"></div>
-          ) : hasNextPage ? (
-            <div className="text-black text-4xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-6xl">Desliza para cargar más</div>
-          ) : (
-            <div className="text-black text-4xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-6xl">No hay más personajes
+        <div className="flex-1 overflow-y-auto pr-2">
+          {data?.pages.map((page, pageIndex) => (
+            <div key={pageIndex} className="flex flex-col gap-2 mb-2">
+              {page.results.map((character: CharactersInterface) => (
+                <div key={character.id}>{Card(character)}</div>
+              ))}
             </div>
-          )}
+          ))}
+
+          <div ref={loaderRef} className="flex flex-col items-center justify-center py-4 gap-2">
+            {isFetchingNextPage ? (
+              <div className="w-20 h-20 border-8 border-black border-t-transparent rounded-full animate-spin"></div>
+            ) : hasNextPage ? (
+              <div className="text-black text-4xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-6xl">Desliza para cargar más</div>
+            ) : (
+              <div className="text-black text-4xl sm:text-4xl md:text-6xl lg:text-6xl xl:text-6xl">No hay más personajes</div>
+            )}
+          </div>
         </div>
       </div>
     </div>
